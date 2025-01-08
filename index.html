@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vocabulary Test</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@1.0.2/css/bulma.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="app" class="container is-max-tablet mt-6"">
+        <div id="setup">
+            <div id="name-input">
+                <label class="label">Enter your name:</label>
+                <input class="input" type="text" id="student-name" placeholder="Your name" required>
+            </div>
+           <div class="field">
+                <label class="label mt-2">Select a level:</label>
+                <div class="control">
+                    <div class="select">
+                        <select id="level-select">
+                            <option value="">Choose a level</option>
+                            <option value="1">Level 1</option>
+                            <option value="2">Level 2</option>
+                            <option value="3">Level 3</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+            <button id="start-test" class="button is-link">Start</button>
+        </div>
+        <div id="test-container" style="display: none;">
+            <h2 id="question"></h2>
+            <div id="options"></div>
+            <div class="mt-2" id="timer">Time left: <span id="time">20</span></div>
+        </div>
+        <div id="results" style="display: none;">
+            <p class="is-size-3">Your score: <span id="score"></span>/10</p>
+            <button class="button is-primary mt-4" id="retry">Take the test again</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
