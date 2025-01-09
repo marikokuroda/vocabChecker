@@ -57,7 +57,7 @@ const vocabularyLists = {
          
         {sentence: "An airplane flew over the ____.", word: "clouds", 
          options: ["trees", "clouds", "cars", "chairs", "I don't know"], 
-         correct: "clouds", image: "clouds/pillow.png"},
+         correct: "clouds", image: "images/clouds.png"},
          
         {sentence: "There was a terrible ____ at night.", word: "storm", 
          options: ["storm", "joke", "cake", "game", "I don't know"], 
