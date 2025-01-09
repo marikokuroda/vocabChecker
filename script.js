@@ -521,7 +521,7 @@ function showQuestion() {
     question.options.forEach(option => {
     const button = document.createElement('button');
     button.textContent = option;
-    button.className = 'button is-link mr-3 mt-3';
+    button.className = 'button is-link is-medium mr-3 mt-3';
     button.addEventListener('click', () => selectAnswer(option, question.correct));
     optionsElement.appendChild(button);
 });
