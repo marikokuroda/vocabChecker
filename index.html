@@ -10,19 +10,25 @@
 <body>
     <div id="app" class="container is-max-tablet mt-6"">
         <div id="setup">
-            <div id="name-input">
+            <!--<div id="name-input">
                 <label class="label">Enter your name:</label>
                 <input class="input" type="text" id="student-name" placeholder="Your name" required>
-            </div>
+            </div>-->
            <div class="field">
-                <label class="label mt-2">Select a level:</label>
+                <label class="label mt-2">Select a book:</label>
                 <div class="control">
                     <div class="select">
                         <select id="level-select">
-                            <option value="">Choose a level</option>
-                            <option value="1">Level 1</option>
-                            <option value="2">Level 2</option>
-                            <option value="3">Level 3</option>
+                            <option value="">Choose a book</option>
+                            <option value="1">Little Bear</option>
+                            <option value="2">Mouse Tales</option>
+                            <option value="3">The Wonderful Wizard of Oz</option>
+                            <option value="4">The Adventures of Tom Sawyer</option>
+                            <option value="5">Oliver Twist</option>
+                            <option value="6">A Dream Come True</option>
+                            <option value="7">The Canterville Ghost</option>
+                            <option value="8">A Christmas Carol</option>
+                            <option value="9">Great Expectations</option>
                         </select>
                     </div>
                 </div>
@@ -30,7 +36,9 @@
             <button id="start-test" class="button is-link">Start</button>
         </div>
         <div id="test-container" style="display: none;">
+            <img id="question-image" style="display:none;" alt="Question Image">
             <h2 id="question"></h2>
+            <div id="definition" class="definition" style="display:none;"></div>
             <div id="options"></div>
             <div class="mt-2" id="timer">Time left: <span id="time">20</span></div>
         </div>
