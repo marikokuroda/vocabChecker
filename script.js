@@ -48,11 +48,11 @@ const vocabularyLists = {
          correct: "pillow", image: "images/pillow.png"},
          
         {sentence: "I only have a few ____ in my wallet.", word: "pennies", 
-         options: ["apples", "shoes", "pennies", "flowers", "I don't know"], 
+         options: ["pennies", "shoes", "apples", "flowers", "I don't know"], 
          correct: "pennies", image: "images/pennies.png"},
          
         {sentence: "I am ____ of ghosts.", word: "scared", 
-         options: ["hungry", "scared", "asleep", "strong", "I don't know"], 
+         options: ["hungry", "asleep", "scared", "strong", "I don't know"], 
          correct: "scared", image: "images/scared.png"},
          
         {sentence: "An airplane flew over the ____.", word: "clouds", 
@@ -60,15 +60,15 @@ const vocabularyLists = {
          correct: "clouds", image: "images/clouds.png"},
          
         {sentence: "There was a terrible ____ at night.", word: "storm", 
-         options: ["storm", "joke", "cake", "game", "I don't know"], 
+         options: ["game", "joke", "cake", "storm", "I don't know"], 
          correct: "storm", image: "images/storm.png"},
          
         {sentence: "Strong ____ blew from the north.", word: "winds", 
-         options: ["winds", "paint", "dogs", "books", "I don't know"], 
+         options: ["dogs", "paint", "winds", "books", "I don't know"], 
          correct: "winds", image: "images/winds.png"},
          
         {sentence: "“Help!” she ____.", word: "screamed", 
-         options: ["screamed", "ate", "sat", "painted", "I don't know"], 
+         options: ["sat", "ate", "screamed", "painted", "I don't know"], 
          correct: "screamed", image: "images/screamed.png"},
          
         {sentence: "I always take a ____ in the morning.", word: "bath", 
@@ -76,11 +76,11 @@ const vocabularyLists = {
          correct: "bath", image: "images/bath.png"},
          
         {sentence: "My hair was ____ after taking a shower.", word: "wet", 
-         options: ["wet", "loud", "hard", "bright", "I don't know"], 
+         options: ["hard", "loud", "wet", "bright", "I don't know"], 
          correct: "wet", image: "images/wet.png"},
          
         {sentence: "We live in a small ____ in Tokyo.", word: "town", 
-         options: ["town", "shoe", "window", "lake", "I don't know"], 
+         options: ["lake", "shoe", "window", "town", "I don't know"], 
          correct: "town", image: "images/town.png"}
     ],
 
@@ -502,10 +502,10 @@ function showQuestion() {
     questionElement.className = "is-size-3";
 
     if (question.image) {
-        imageElement.src = question.image; // Set the image source
-        imageElement.style.display = 'block'; // Show the image
+        imageElement.src = question.image; 
+        imageElement.style.display = 'block'; 
     } else {
-        imageElement.style.display = 'none'; // Hide the image if not present
+        imageElement.style.display = 'none'; 
     }
 
     const definitionElement = document.getElementById('definition');
