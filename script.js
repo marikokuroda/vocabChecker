@@ -45,43 +45,43 @@ const vocabularyLists = {
     2: [
         {sentence: "I sleep with a very soft ____ everyday.", word: "pillow", 
          options: ["stone", "pencil", "pillow", "banana", "I don't know"], 
-         correct: "pillow"},
+         correct: "pillow", image: "images/pillow.png"},
          
         {sentence: "I only have a few ____ in my wallet.", word: "pennies", 
          options: ["apples", "shoes", "pennies", "flowers", "I don't know"], 
-         correct: "pennies"},
+         correct: "pennies", image: "images/pennies.png"},
          
         {sentence: "I am ____ of ghosts.", word: "scared", 
          options: ["hungry", "scared", "asleep", "strong", "I don't know"], 
-         correct: "scared"},
+         correct: "scared", image: "images/scared.png"},
          
         {sentence: "An airplane flew over the ____.", word: "clouds", 
          options: ["trees", "clouds", "cars", "chairs", "I don't know"], 
-         correct: "clouds"},
+         correct: "clouds", image: "clouds/pillow.png"},
          
         {sentence: "There was a terrible ____ at night.", word: "storm", 
          options: ["storm", "joke", "cake", "game", "I don't know"], 
-         correct: "storm"},
+         correct: "storm", image: "images/storm.png"},
          
         {sentence: "Strong ____ blew from the north.", word: "winds", 
          options: ["winds", "paint", "dogs", "books", "I don't know"], 
-         correct: "winds"},
+         correct: "winds", image: "images/winds.png"},
          
         {sentence: "“Help!” she ____.", word: "screamed", 
          options: ["screamed", "ate", "sat", "painted", "I don't know"], 
-         correct: "screamed"},
+         correct: "screamed", image: "images/screamed.png"},
          
         {sentence: "I always take a ____ in the morning.", word: "bath", 
          options: ["bath", "hat", "pencil", "cake", "I don't know"], 
-         correct: "bath"},
+         correct: "bath", image: "images/bath.png"},
          
         {sentence: "My hair was ____ after taking a shower.", word: "wet", 
          options: ["wet", "loud", "hard", "bright", "I don't know"], 
-         correct: "wet"},
+         correct: "wet", image: "images/wet.png"},
          
         {sentence: "We live in a small ____ in Tokyo.", word: "town", 
          options: ["town", "shoe", "window", "lake", "I don't know"], 
-         correct: "town"}
+         correct: "town", image: "images/town.png"}
     ],
 
     3: [
