@@ -9,7 +9,7 @@ const vocabularyLists = {
          correct: "play", image: "images/play.png"},
          
         {sentence: "He wore brown ____ and a white shirt!", word: "pants", 
-         options: ["pants", "hat", "shoe", "cloud", "わからない"], 
+         options: ["pants", "hat", "shoe", "socks", "わからない"], 
          correct: "pants", image: "images/pants.png"},
          
         {sentence: "The flowers ____ nice!", word: "smell", 
@@ -25,11 +25,11 @@ const vocabularyLists = {
          correct: "cook", image: "images/cook.png"},
          
         {sentence: "Planes ____ up in the clouds.", word: "fly", 
-        options: ["dance", "think", "fly", "grow", "わからない"], 
+        options: ["swim", "think", "fly", "grow", "わからない"], 
         correct: "fly", image: "images/fly.png"},
 
         {sentence: "We live on planet ____.", word: "Earth", 
-         options: ["blue", "Earth", "clouds", "pencil", "わからない"], 
+         options: ["blue", "Earth", "clouds", "circle", "わからない"], 
          correct: "Earth", image: "images/Earth.png"},
          
         {sentence: "I rode a ____ train to Yokohama.", word: "fast",
@@ -43,11 +43,11 @@ const vocabularyLists = {
 
     2: [
         {sentence: "I sleep with a very soft ____ everyday.", word: "pillow", 
-         options: ["stone", "pencil", "pillow", "banana", "わからない"], 
+         options: ["stone", "pencil", "pillow", "night", "わからない"], 
          correct: "pillow", image: "images/pillow.png"},
          
         {sentence: "I only have a few ____ in my wallet.", word: "pennies", 
-         options: ["pennies", "shoes", "apples", "flowers", "わからない"], 
+         options: ["pennies", "shoes", "gold", "flowers", "わからない"], 
          correct: "pennies", image: "images/pennies.png"},
          
         {sentence: "I am ____ of ghosts.", word: "scared", 
@@ -55,23 +55,23 @@ const vocabularyLists = {
          correct: "scared", image: "images/scared.png"},
          
         {sentence: "An airplane flew over the ____.", word: "clouds", 
-         options: ["trees", "clouds", "cars", "chairs", "わからない"], 
+         options: ["trees", "clouds", "cars", "snow", "わからない"], 
          correct: "clouds", image: "images/clouds.png"},
          
         {sentence: "There was a terrible ____ at night.", word: "storm", 
-         options: ["game", "joke", "cake", "storm", "わからない"], 
+         options: ["water", "joke", "cake", "storm", "わからない"], 
          correct: "storm", image: "images/storm.png"},
          
         {sentence: "Strong ____ blew from the north.", word: "winds", 
-         options: ["dogs", "paint", "winds", "books", "わからない"], 
+         options: ["trees", "paint", "winds", "water", "わからない"], 
          correct: "winds", image: "images/winds.png"},
          
         {sentence: "“Help!” she ____.", word: "screamed", 
-         options: ["sat", "ate", "screamed", "painted", "わからない"], 
+         options: ["sat", "ate", "screamed", "wanted", "わからない"], 
          correct: "screamed", image: "images/screamed.png"},
          
         {sentence: "I always take a ____ in the morning.", word: "bath", 
-         options: ["bath", "hat", "pencil", "cake", "わからない"], 
+         options: ["bath", "hat", "nap", "air", "わからない"], 
          correct: "bath", image: "images/bath.png"},
          
         {sentence: "My hair was ____ after taking a shower.", word: "wet", 
@@ -95,7 +95,7 @@ const vocabularyLists = {
          definition: "to know the meaning of what someone is telling you, or the language that they speak"},
          
         {sentence: "Joe ____ an apple on the table.", word: "found", 
-         options: ["broke", "lost", "found", "stole", "わからない"], 
+         options: ["broke", "lost", "found", "knocked", "わからない"], 
          correct: "found", 
          definition: "to discover something by chance"},
 
@@ -105,17 +105,17 @@ const vocabularyLists = {
          definition: "to make sounds with your voice because you think something is funny"},
          
         {sentence: "My English lesson ____ at 9 o'clock every morning.", word: "begins", 
-         options: ["ends", "begins", "stops", "waits", "わからない"], 
+         options: ["continues", "begins", "stops", "waits", "わからない"], 
          correct: "begins", 
          definition: "to start doing something, or to start to happen or exist"},
          
         {sentence: "The lion ____ a zebra and ate it.", word: "killed", 
-         options: ["found", "played", "killed", "chased", "わからない"], 
+         options: ["rolled", "played", "killed", "borrowed", "わからない"], 
          correct: "killed", 
          definition: "to make a person or animal die"},
          
         {sentence: "The concert starts at 7:30pm, so please ____ by 7 o'clock.", word: "arrive", 
-         options: ["arrive", "leave", "hurry", "sleep", "わからない"], 
+         options: ["arrive", "plan", "hurry", "sleep", "わからない"], 
          correct: "arrive", 
          definition: "to get to a place"},
          
@@ -130,14 +130,14 @@ const vocabularyLists = {
          definition: "to take liquid into your mouth and swallow it"},
          
         {sentence: "Please ____ this book to Catal in one week.", word: "return", 
-         options: ["lose", "return", "hide", "sell", "わからない"], 
+         options: ["lose", "return", "hide", "forget", "わからない"], 
          correct: "return", 
          definition: "to come back or send something back where it came from"}
     ],
 
     4: [
         {sentence: "The sun went ____ the clouds.", word: "behind", 
-         options: ["behind", "above", "next to", "in front of", "わからない"], 
+         options: ["behind", "into", "across", "through", "わからない"], 
          correct: "behind", 
          definition: "at the back of something"},
          
@@ -152,7 +152,7 @@ const vocabularyLists = {
          definition: "to let someone see something"},
          
         {sentence: "I got all the questions ____ in the test!", word: "right", 
-         options: ["right", "wrong", "short", "hard", "わからない"], 
+         options: ["right", "tired", "short", "hard", "わからない"], 
          correct: "right", 
          definition: "correct or true"},
          
@@ -172,7 +172,7 @@ const vocabularyLists = {
          definition: "damaged or in small pieces because of being hit, dropped etc."},
          
         {sentence: "The dog ____ her around wherever she went.", word: "followed", 
-         options: ["stopped", "ignored", "chased", "followed", "わからない"], 
+         options: ["stopped", "ignored", "rescued", "followed", "わからない"], 
          correct: "followed", 
          definition: "to walk or drive behind someone."},
          
@@ -199,7 +199,7 @@ const vocabularyLists = {
          definition: "to divide or split something into different parts"},
          
         {sentence: "This book is ____ better than the last one.", word: "certainly", 
-         options: ["probably", "certainly", "possibly", "maybe", "わからない"], 
+         options: ["probably", "certainly", "possibly", "unlikely", "わからない"], 
          correct: "certainly", 
          definition: "without any doubt."},
          
@@ -209,22 +209,22 @@ const vocabularyLists = {
          definition: "very angry"},
          
         {sentence: "J.K. Rowling is the ____ of the Harry Potter series.", word: "author", 
-         options: ["reader", "character", "author", "director", "わからない"], 
+         options: ["reader", "character", "author", "master", "わからない"], 
          correct: "author", 
          definition: "someone who has written a book"},
          
         {sentence: "We were ____ to go out in the storm at night.", word: "terrified", 
-         options: ["excited", "terrified", "ready", "brave", "わからない"], 
+         options: ["excited", "terrified", "ready", "embarrassed", "わからない"], 
          correct: "terrified", 
          definition: "very frightened"},
          
         {sentence: "No one was seriously ____ in the accident.", word: "hurt", 
-         options: ["hurt", "shocked", "angry", "healthy", "わからない"], 
+         options: ["hurt", "worried", "angry", "healthy", "わからない"], 
          correct: "hurt", 
          definition: "suffering pain or injury"},
          
         {sentence: "The dog followed its ____.", word: "master", 
-         options: ["friend", "master", "doctor", "enemy", "わからない"], 
+         options: ["team", "master", "doctor", "enemy", "わからない"], 
          correct: "master", 
          definition: "the man who has control over servants, animals, or workers"},
          
@@ -234,7 +234,7 @@ const vocabularyLists = {
          definition: "more than very"},
          
         {sentence: "Compared to the US, Japan has very little ____.", word: "crime", 
-         options: ["traffic", "taxes", "crime", "business", "わからない"], 
+         options: ["traffic", "profit", "crime", "business", "わからない"], 
          correct: "crime", 
          definition: "illegal activities in general."}
     ],
@@ -251,17 +251,17 @@ const vocabularyLists = {
          definition: "unhappy and ashamed because you have done something wrong"},
          
         {sentence: "I feel that nothing could ____ this perfect moment.", word: "spoil", 
-         options: ["solve", "improve", "spoil", "affect", "わからない"], 
+         options: ["solve", "reduce", "spoil", "affect", "わからない"], 
          correct: "spoil", 
          definition: "to make something less good or enjoyable."},
          
         {sentence: "She never ____ him for losing her ring.", word: "forgave", 
-         options: ["ignored", "blamed", "supported", "forgave", "わからない"], 
+         options: ["ignored", "praised", "supported", "forgave", "わからない"], 
          correct: "forgave", 
          definition: "to decide not to be angry or punish someone who has done something wrong"},
          
         {sentence: "Smoking is not ____ in the airport.", word: "allowed", 
-         options: ["hated", "favored", "allowed", "safe", "わからない"], 
+         options: ["hated", "expected", "allowed", "ready", "わからない"], 
          correct: "allowed", 
          definition: "to say that someone can do or have something"},
          
@@ -276,7 +276,7 @@ const vocabularyLists = {
          definition: "the place that you are traveling to"},
          
         {sentence: "He disappears into the ____.", word: "crowd", 
-         options: ["space", "crowd", "party", "family", "わからない"], 
+         options: ["space", "crowd", "field", "family", "わからない"], 
          correct: "crowd", 
          definition: "a large group of people in one place"},
          
@@ -286,7 +286,7 @@ const vocabularyLists = {
          definition: "correctly or in a way that is considered right"},
          
         {sentence: "She showed a ____ for garden design.", word: "talent", 
-         options: ["style", "plan", "habit", "talent", "わからない"], 
+         options: ["style", "purpose", "habit", "talent", "わからない"], 
          correct: "talent", 
          definition: "a natural ability to do something well"}
     ],
@@ -298,7 +298,7 @@ const vocabularyLists = {
          definition: "to happen or to be real or alive"},
          
         {sentence: "The jury found her ____ of murder.", word: "guilty", 
-         options: ["innocent", "guilty", "necessary", "careless", "わからない"], 
+         options: ["anxious", "guilty", "necessary", "careless", "わからない"], 
          correct: "guilty", 
          definition: "having done something that is a crime"},
          
@@ -308,22 +308,22 @@ const vocabularyLists = {
          definition: "completely or totally"},
          
         {sentence: "Tom seemed sad, which was ____ for him.", word: "unusual", 
-         options: ["boring", "common", "unusual", "normal", "わからない"], 
+         options: ["boring", "useless", "unusual", "easy", "わからない"], 
          correct: "unusual", 
          definition: "different from what is usual or normal"},
          
         {sentence: "Doctors ____ to save the girl's life.", word: "failed", 
-         options: ["forgot", "succeeded", "failed", "stopped", "わからない"], 
+         options: ["forgot", "fulfilled", "failed", "stopped", "わからない"], 
          correct: "failed", 
          definition: "to not succeed in doing something that you try to do"},
          
         {sentence: "A lot of people suffer from ____ before going on stage.", word: "nerves", 
-         options: ["excitement", "calmness", "anger", "nerves", "わからない"], 
+         options: ["enjoyment", "calmness", "anger", "nerves", "わからない"], 
          correct: "nerves", 
          definition: "the feeling of being worried or a little frightened"},
          
         {sentence: "That night, the young prince slept ____ in his bed.", word: "peacefully", 
-         options: ["noisily", "peacefully", "quickly", "intensely", "わからない"], 
+         options: ["seriously", "peacefully", "quickly", "intensely", "わからない"], 
          correct: "peacefully", 
          definition: "quiet and calm"},
          
@@ -338,14 +338,14 @@ const vocabularyLists = {
          definition: "something that you own"},
          
         {sentence: "We went to visit our family ____.", word: "grave", 
-         options: ["grave", "garden", "house", "scenario", "わからない"], 
+         options: ["grave", "market", "park", "scenario", "わからない"], 
          correct: "grave", 
          definition: "the place where a dead body is buried"}
     ],
 
     8: [
         {sentence: "I'm absolutely ____ that I left the keys here.", word: "certain", 
-         options: ["certain", "unsure", "curious", "steady", "わからない"], 
+         options: ["certain", "negative", "curious", "steady", "わからない"], 
          correct: "certain", 
          definition: "completely sure"},
          
@@ -355,12 +355,12 @@ const vocabularyLists = {
          definition: "clear and able to be seen through"},
          
         {sentence: "The students have ____ respect for Mrs. Baker.", word: "tremendous", 
-         options: ["unbelievable", "precious", "ample", "tremendous", "わからない"], 
+         options: ["minimum", "precious", "ample", "tremendous", "わからない"], 
          correct: "tremendous", 
          definition: "very great"},
          
         {sentence: "Do you have any more ____ to bring to the trip?", word: "luggage", 
-         options: ["luggage", "passengers", "carriages", "papers", "わからない"], 
+         options: ["luggage", "considerations", "carriages", "voyages", "わからない"], 
          correct: "luggage", 
          definition: "the bags and cases that you carry when you are traveling"},
          
@@ -370,27 +370,27 @@ const vocabularyLists = {
          definition: "a very large amount of money"},
          
         {sentence: "The waiter at the restaurant ____ us quickly.", word: "served", 
-         options: ["greeted", "welcomed", "ignored", "served", "わからない"], 
+         options: ["educated", "interrupted", "ignored", "served", "わからない"], 
          correct: "served", 
          definition: "to give someone food or drinks as part of a meal"},
          
         {sentence: "The dirty dog on the street looked ____ in the rain.", word: "miserable", 
-         options: ["comfortable", "thoughtful", "miserable", "careful", "わからない"], 
+         options: ["comfortable", "ecstatic", "miserable", "careful", "わからない"], 
          correct: "miserable", 
          definition: "very unhappy"},
          
         {sentence: "She screamed in ____ as she saw a stranger in her house.", word: "terror", 
-         options: ["curiosity", "confusion", "terror", "surprise", "わからない"], 
+         options: ["curiosity", "confusion", "terror", "gratitude", "わからない"], 
          correct: "terror", 
          definition: "a feeling of extreme fear"},
          
         {sentence: "You can see the ____ views of the city from the helicopter.", word: "glorious", 
-         options: ["glorious", "hidden", "unnecessary", "dull", "わからない"], 
+         options: ["glorious", "ridiculous", "unnecessary", "dull", "わからない"], 
          correct: "glorious", 
          definition: "very beautiful or impressive"},
          
         {sentence: "It cost an ____ amount of money to make that movie.", word: "enormous", 
-         options: ["terrible", "reasonable", "enormous", "modest", "わからない"],
+         options: ["terrible", "reasonable", "enormous", "invalid", "わからない"],
          correct: "enormous", 
          definition: "very big in size, amount, or degree"}
     ],
@@ -401,23 +401,23 @@ const vocabularyLists = {
          correct: "fierce", 
          definition: "angry, aggressive, and frightening"},
          
-        {sentence: "She was always very ____.", word: "appreciative", 
+        {sentence: "She was always very ____ of everything she was given", word: "appreciative", 
          options: ["appreciative", "disrespectful", "unusual", "prideful", "わからない"], 
          correct: "appreciative", 
          definition: "grateful for something"},
          
         {sentence: "The story had the most ____ ending.", word: "bizarre", 
-         options: ["incredible", "boring", "bizarre", "simple", "わからない"], 
+         options: ["rare", "delicate", "bizarre", "ambitious", "わからない"], 
          correct: "bizarre", 
          definition: "very strange"},
          
         {sentence: "There are many students here who ____ to become a doctor.", word: "aspire", 
-         options: ["dismiss", "aspire", "bribe", "attempt", "わからない"], 
+         options: ["dismiss", "aspire", "bribe", "exist", "わからない"], 
          correct: "aspire", 
          definition: "to have a strong desire to have or do something"},
          
         {sentence: "I ____ quite a lot of money from my mother.", word: "inherited", 
-         options: ["plundered", "discovered", "inherited", "earned", "わからない"], 
+         options: ["plundered", "discovered", "inherited", "transferred", "わからない"], 
          correct: "inherited", 
          definition: "to receive property, money, etc. from somebody who has died"},
          
@@ -427,29 +427,29 @@ const vocabularyLists = {
          definition: "a particular time when something happens"},
          
         {sentence: "We were ____ about his decision.", word: "uneasy", 
-         options: ["unconcerned", "ecstatic", "uneasy", "ignorant", "わからない"], 
+         options: ["distracted", "sincere", "uneasy", "unique", "わからない"], 
          correct: "uneasy", 
          definition: "worried; not feeling relaxed or comfortable"},
          
         {sentence: "We wrote ____ cheques and stole banknotes.", word: "false", 
-         options: ["spectacular", "false", "true", "valid", "わからない"], 
+         options: ["spectacular", "false", "peaceful", "classy", "わからない"], 
          correct: "false", 
          definition: "not true; not correct"},
          
         {sentence: "I was completely ____ by his change of mood.", word: "bewildered", 
-         options: ["calm", "sure", "convinced", "bewildered", "わからない"], 
+         options: ["calm", "faint", "natural", "bewildered", "わからない"], 
          correct: "bewildered", 
          definition: "confused"},
          
         {sentence: "She did not ____ a word in the meeting.", word: "utter", 
-         options: ["suggest", "pitch", "utter", "ask", "わからない"], 
+         options: ["convince", "issue", "utter", "investigate", "わからない"], 
          correct: "utter", 
          definition: "to say something or make a sound with your voice"}
     ],
 
     10: [
         {sentence: "Parrots ____ what humans say.", word: "imitate", 
-         options: ["ignore", "imitate", "jump", "paint", "わからない"], 
+         options: ["ignore", "imitate", "translate", "hire", "わからない"], 
          correct: "imitate", 
          definition: "to copy somebody or something"},
          
@@ -464,7 +464,7 @@ const vocabularyLists = {
          definition: "to warn that you may hurt, kill or punish somebody if they do not do what you want"},
          
         {sentence: "The missing girl ____ without a trace a year ago.", word: "vanished", 
-         options: ["appeared", "shouted", "vanished", "extinguished", "わからない"], 
+         options: ["appeared", "shouted", "vanished", "survived", "わからない"], 
          correct: "vanished", 
          definition: "to disappear suddenly or in a way that you cannot explain"},
          
@@ -479,7 +479,7 @@ const vocabularyLists = {
          definition: "the state of being extremely poor"},
          
         {sentence: "Eric became more ____ and rebellious as he entered his teens.", word: "disobedient", 
-         options: ["polite", "disobedient", "quiet", "agitated", "わからない"], 
+         options: ["polite", "disobedient", "quiet", "gorgeous", "わからない"], 
          correct: "disobedient", 
          definition: "refusing or failing to obey"},
          
@@ -489,12 +489,12 @@ const vocabularyLists = {
          definition: "to earn something, either good or bad, because of something that you have done"},
          
         {sentence: "After many years, they were finally able to pay off their ____.", word: "debt", 
-         options: [ "house", "debt","gift", "profit", "わからない"], 
+         options: [ "engagement","debt","gift", "profit", "わからない"], 
          correct: "debt", 
          definition: "an amount of money that you owe to somebody"},
          
         {sentence: "She sounded ____ when her brother got into Keio University.", word: "relieved", 
-         options: ["scared", "hesitant", "relieved", "confused", "わからない"], 
+         options: ["traditional", "awake", "relieved", "successful", "わからない"], 
          correct: "relieved", 
          definition: "pleased because your fear or worry has been taken away"}
     ],
@@ -506,7 +506,7 @@ const vocabularyLists = {
          definition: "to encourage something; to help something to happen or develop"},
          
         {sentence: "The painting was beautiful, but there were a few ____ flaws.", word: "minor", 
-         options: ["major", "famous", "minor", "precious", "わからない"], 
+         options: ["pretty", "famous", "minor", "precious", "わからない"], 
          correct: "minor", 
          definition: "not very big, serious, or important"},
          
@@ -521,12 +521,12 @@ const vocabularyLists = {
          definition: "happening or existing all the time or again and again"},
          
         {sentence: "The athlete's injury was a ____ of not warming up before the game.", word: "consequence", 
-         options: ["consequence", "reason", "game", "indicator", "わからない"], 
+         options: ["consequence", "reason", "prediction", "indicator", "わからない"], 
          correct: "consequence", 
          definition: "something that happens or follows as a result of something else"},
          
         {sentence: "The apartment building is open to both short-term and long-term ____.", word: "residents", 
-         options: ["visitors", "travellers", "residents", "players", "わからない"], 
+         options: ["positions", "customers", "residents", "siblings", "わからない"], 
          correct: "residents", 
          definition: "a person who lives in a place"},
          
@@ -553,7 +553,7 @@ const vocabularyLists = {
      
      12:[
         {sentence: "Apparently, he's not happy with how ____ I've been.", word: "selective", 
-         options: ["selective", "careless", "random", "easygoing", "わからない"], 
+         options: ["selective", "perfect", "educated", "basic", "わからない"], 
          correct: "selective", 
          definition: "being careful about what or who you choose"},
          
@@ -573,22 +573,22 @@ const vocabularyLists = {
          definition: "a level of quality, especially one that people think is acceptable"},
          
         {sentence: "He refused to ____ any names to the police.", word: "reveal", 
-         options: ["hide", "suggest", "guess", "reveal", "わからない"], 
+         options: ["hide", "invent", "guess", "reveal", "わからない"], 
          correct: "reveal", 
          definition: "to make something known that was secret or unknown before"},
          
         {sentence: "The two leaders signed the ____ to make the agreement legal.", word: "treaty", 
-         options: ["meeting", "treaty", "election", "letter", "わからない"], 
+         options: ["meeting", "treaty", "election", "vote", "わからない"], 
          correct: "treaty", 
          definition: "a written agreement between two or more countries"},
          
         {sentence: "Some people question the ____ of the system.", word: "morality", 
-         options: ["structure", "value", "morality", "strength", "わからない"], 
+         options: ["structure", "impression", "morality", "altitude", "わからない"], 
          correct: "morality", 
          definition: "principles concerning what is good and bad or right and wrong behaviour"},
          
         {sentence: "At that price, it’s an absolute ____!", word: "bargain", 
-         options: ["approval", "bargain", "deal", "investment", "わからない"], 
+         options: ["approval", "bargain", "treasure", "investment", "わからない"], 
          correct: "bargain", 
          definition: "something that is cheaper or at a lower price than usual"},
          
@@ -598,7 +598,7 @@ const vocabularyLists = {
          definition: "full of desire or interest"},
          
         {sentence: "____ from income tax rose last year.", word: "Revenue", 
-         options: ["Profit", "Expense", "Debt", "Revenue", "わからない"], 
+         options: ["Discounts", "Expense", "Debt", "Revenue", "わからない"], 
          correct: "Revenue", 
          definition: "money regularly received by a government, company, etc."}
      ],
@@ -615,7 +615,7 @@ const vocabularyLists = {
          definition: "a person who holds down or restrains others"},
          
         {sentence: "I very ____ go to the theater.", word: "seldom", 
-         options: ["generally", "frequently", "seldom", "regularly", "わからない"], 
+         options: ["generally", "currently", "seldom", "hourly", "わからない"], 
          correct: "seldom", 
          definition: "not often"},
          
@@ -657,7 +657,7 @@ const vocabularyLists = {
 
      14:[
         {sentence: "He is small in ____.", word: "stature", 
-         options: ["vitality", "character", "voice", "stature", "わからない"], 
+         options: ["vitality", "purpose", "will", "stature", "わからない"], 
          correct: "stature", 
          definition: "the height of a person"},
          
@@ -677,7 +677,7 @@ const vocabularyLists = {
          definition: "a person who belongs to the same family as somebody who lived a long time ago"},
          
         {sentence: "Fundraising is ____ to their main activities.", word: "peripheral", 
-         options: ["central", "peripheral", "essential", "unrelated", "わからない"], 
+         options: ["minimal", "peripheral", "absent", "ignorant", "わからない"], 
          correct: "peripheral", 
          definition: "not as important as the main aim, part, etc. of something"},
          
@@ -687,12 +687,12 @@ const vocabularyLists = {
          definition: "to fix something firmly and deeply (in something else)"},
          
         {sentence: "He remained ____ while his brothers argued.", word: "neutral", 
-         options: ["biased", "infuriated", "neutral", "decisive", "わからない"], 
+         options: ["biased", "practical", "neutral", "decisive", "わからない"], 
          correct: "neutral", 
          definition: "not supporting or belonging to either side in an argument, a war, etc."},
          
         {sentence: "Rather than being fair, some AI systems may lead to ____.", word: "discrimination", 
-         options: ["equality", "integration", "discrimination", "fairness", "わからない"], 
+         options: ["equality", "integration", "discrimination", "introduction", "わからない"], 
          correct: "discrimination", 
          definition: "treating one person or a group worse than others"},
          
@@ -702,7 +702,7 @@ const vocabularyLists = {
          definition: "the act of taking part in something"},
          
         {sentence: "The performance was praised for their ability to show ____ stunts.", word: "dynamic", 
-         options: ["static", "dynamic", "traditional", "listless", "わからない"], 
+         options: ["static", "dynamic", "foolish", "listless", "わからない"], 
          correct: "dynamic", 
          definition: "full of energy and ideas, active"}
      ]
