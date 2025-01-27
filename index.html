@@ -56,8 +56,19 @@
             <div class="mt-2" id="timer">Time left: <span id="time"></span></div>
         </div>
         <div id="results" style="display: none;">
-            <p class="is-size-3">Your score: <span id="score"></span>/10</p>
-            <button class="button is-primary mt-4" id="retry">Take the test again</button>
+            <p class="is-size-2">Your score: <span id="score"></span>/10</p>
+            <table class="table is-striped is-fullwidth mt-4">
+                <thead>
+                    <tr>
+                        <th>#</th>
+                        <th>Question</th>
+                        <th>Your Answer</th>
+                        <th>Correct Answer</th>
+                    </tr>
+                </thead>
+                <tbody id="results-table-body"></tbody>
+            </table>
+            <button id="retry" class="button is-link mt-3">Retry</button>
         </div>
     </div>
     <script src="script.js"></script>

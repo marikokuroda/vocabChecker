@@ -708,8 +708,6 @@ const vocabularyLists = {
      ]
 };
 
-
-
 let studentName, currentLevel, currentQuestion, score, timer, studentResponses;
 
 const nameInputField = document.getElementById('student-name');
@@ -820,17 +818,40 @@ function startTimer() {
 function showResults() {
     testContainer.style.display = 'none';
     resultsElement.style.display = 'block';
-    scoreElement.textContent = score;
 
-    const testResult = {
-        name: studentName,
-        level: currentLevel,
-        score: score,
-        responses: studentResponses,
-        date: new Date().toISOString()
-    };
+    // Display the total score
+    scoreElement.textContent = `${score}`;
 
-    //sendDataToGoogleSheets(testResult);
+    // Populate the results table
+    const tableBody = document.getElementById('results-table-body');
+    tableBody.innerHTML = ''; // Clear previous results if any
+
+    studentResponses.forEach((response, index) => {
+        const row = document.createElement('tr');
+
+        // Add question number
+        const questionNumberCell = document.createElement('td');
+        questionNumberCell.textContent = index + 1;
+        row.appendChild(questionNumberCell);
+
+        // Add question text
+        const questionCell = document.createElement('td');
+        questionCell.textContent = response.sentence;
+        row.appendChild(questionCell);
+
+        // Add user's answer
+        const userAnswerCell = document.createElement('td');
+        userAnswerCell.textContent = response.selected;
+        userAnswerCell.className = response.selected === response.correct ? 'has-text-success' : 'has-text-danger';
+        row.appendChild(userAnswerCell);
+
+        // Add correct answer
+        const correctAnswerCell = document.createElement('td');
+        correctAnswerCell.textContent = response.correct;
+        row.appendChild(correctAnswerCell);
+
+        tableBody.appendChild(row);
+    });
 }
 
 /*function sendDataToGoogleSheets(data) {
